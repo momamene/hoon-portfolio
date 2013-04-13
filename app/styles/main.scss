@@ -6,7 +6,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 .btn-img {
     width:107px;
     height:107px;
-    background-color: #ff0000;
+    //background-color: #ff0000;
     position: fixed;
 };
 
@@ -15,5 +15,123 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
    width: 700px;
    position: fixed;
    top: 107px;
-   background-color: #0ff000;
+}
+body {
+    background-color: black;
+}
+body.invert {
+    background-color: white;
+}
+
+.plant.invert {
+    background-image: url('/images/button/식물2.png');
+}
+.insect.invert {
+    background-image: url('/images/button/곤충2.png');
+}
+.fish.invert {
+    background-image: url('/images/button/어류2.png');
+}
+.reptiles.invert {
+    background-image: url('/images/button/파충류2.png');
+}
+.birds.invert {
+    background-image: url('/images/button/조류2.png');
+}
+.artiodactyla.invert {
+    background-image: url('/images/button/우제류2.png');
+}
+.simian.invert {
+    background-image: url('/images/button/유인원2.png');
+}
+.creature.invert {
+    background-image: url('/images/button/생물2.png');
+}
+.space.invert {
+    background-image: url('/images/button/우주2.png');
+}
+
+.plant {
+    background-image: url('/images/button/식물.png');
+}
+.insect {
+    background-image: url('/images/button/곤충.png');
+}
+.fish {
+    background-image: url('/images/button/어류.png');
+}
+.reptiles {
+    background-image: url('/images/button/파충류.png');
+}
+.birds {
+    background-image: url('/images/button/조류.png');
+}
+.artiodactyla {
+    background-image: url('/images/button/우제류.png');
+}
+.simian {
+    background-image: url('/images/button/유인원.png');
+}
+.creature {
+    background-image: url('/images/button/생물.png');
+}
+.space {
+    background-image: url('/images/button/우주.png');
+}
+
+
+.plant.content {
+    background-image: url('/images/animation/식물.gif');
+}
+.insect.content {
+    background-image: url('/images/animation/곤충.gif');
+}
+.fish.content {
+    background-image: url('/images/animation/어류.gif');
+}
+.reptiles.content {
+    background-image: url('/images/animation/파충류.gif');
+}
+.birds.content {
+    background-image: url('/images/animation/조류.gif');
+}
+.artiodactyla.content {
+    background-image: url('/images/animation/우제류.gif');
+}
+.simian.content {
+    background-image: url('/images/animation/유인원.gif');
+}
+.creature.content {
+    background-image: url('/images/animation/생물만.gif');
+}
+.space.content {
+    background-image: url('/images/animation/우주만.gif');
+}
+
+.plant.content.invert {
+    background-image: url('/images/animation/식물2.gif');
+}
+.insect.content.invert {
+    background-image: url('/images/animation/곤충2.gif');
+}
+.fish.content.invert {
+    background-image: url('/images/animation/어류2.gif');
+}
+.reptiles.content.invert {
+    background-image: url('/images/animation/파충류2.gif');
+}
+.birds.content.invert {
+    background-image: url('/images/animation/조류2.gif');
+}
+.artiodactyla.content.invert {
+    background-image: url('/images/animation/우제류2.gif');
+}
+.simian.content.invert {
+    background-image: url('/images/animation/유인원2.gif');
+}
+.creature.content.invert {
+    background-image: url('/images/animation/생물만2.gif');
+}
+.space.content.invert {
+    background-image: url('/images/animation/우주만2.gif');
 }
