@@ -318,6 +318,12 @@ module.exports = function (grunt) {
         ]);
     });
 
+    grunt.registerTask('heroku', [
+        'jshint',
+        'test',
+        'build'
+    ]);
+
     grunt.registerTask('test', [
         'clean:server',
         'concurrent:test',
