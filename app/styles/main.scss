@@ -2,19 +2,24 @@ $iconSpritePath: "../images/glyphicons-halflings.png";
 $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 @import 'sass-bootstrap/lib/bootstrap';
+@import 'sass-bootstrap/lib/responsive';
 
 .btn-img {
-    width:107px;
-    height:107px;
-    //background-color: #ff0000;
+    width:60px;
+    height:60px;
+    @media (min-width: 1024px) {
+        width:107px;
+        height:107px;
+    }
+    background-size: cover;
     position: fixed;
 };
 
 .content {
-   height: 700px;
-   width: 700px;
+   height: 612px;
+   width: 648px;
    position: fixed;
-   top: 107px;
+   bottom: 0;
 }
 body {
     background-color: black;
@@ -23,62 +28,127 @@ body.invert {
     background-color: white;
 }
 
-.plant.invert {
-    background-image: url('/images/button/plant2.png');
-}
-.insect.invert {
-    background-image: url('/images/button/insect2.png');
-}
-.fish.invert {
-    background-image: url('/images/button/fish2.png');
-}
-.reptiles.invert {
-    background-image: url('/images/button/reptiles2.png');
-}
-.birds.invert {
-    background-image: url('/images/button/birds2.png');
-}
-.artiodactyla.invert {
-    background-image: url('/images/button/artiodactyla2.png');
-}
-.simian.invert {
-    background-image: url('/images/button/simian2.png');
-}
-.creature.invert {
-    background-image: url('/images/button/creature2.png');
-}
-.space.invert {
-    background-image: url('/images/button/space2.png');
-}
-
 .plant {
-    background-image: url('/images/button/plant.png');
+    background-image: url('/images/button/60/plant.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/plant.png');
+    }
 }
 .insect {
-    background-image: url('/images/button/insect.png');
+    background-image: url('/images/button/60/insect.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/insect.png');
+    }
 }
 .fish {
-    background-image: url('/images/button/fish.png');
+    background-image: url('/images/button/60/fish.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/fish.png');
+    }
 }
 .reptiles {
-    background-image: url('/images/button/reptiles.png');
+    background-image: url('/images/button/60/reptiles.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/reptiles.png');
+    }
 }
 .birds {
-    background-image: url('/images/button/birds.png');
+    background-image: url('/images/button/60/birds.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/birds.png');
+    }
 }
 .artiodactyla {
-    background-image: url('/images/button/artiodactyla.png');
+    background-image: url('/images/button/60/artiodactyla.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/artiodactyla.png');
+    }
+
 }
 .simian {
-    background-image: url('/images/button/simian.png');
+    background-image: url('/images/button/60/simian.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/simian.png');
+    }
 }
 .creature {
-    background-image: url('/images/button/creature.png');
+    background-image: url('/images/button/60/creature.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/creature.png');
+    }
 }
 .space {
-    background-image: url('/images/button/space.png');
+    background-image: url('/images/button/60/space.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/space.png');
+    }
 }
-
+.city {
+    background-image: url('/images/button/60/creature2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/creature2.png');
+    }
+}
+.plant.invert {
+    background-image: url('/images/button/60/plant2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/plant2.png');
+    }
+}
+.insect.invert {
+    background-image: url('/images/button/60/insect2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/insect2.png');
+    }
+}
+.fish.invert {
+    background-image: url('/images/button/60/fish2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/fish2.png');
+    }
+}
+.reptiles.invert {
+    background-image: url('/images/button/60/reptiles2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/reptiles2.png');
+    }
+}
+.birds.invert {
+    background-image: url('/images/button/60/birds2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/birds2.png');
+    }
+}
+.artiodactyla.invert {
+    background-image: url('/images/button/60/artiodactyla2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/artiodactyla2.png');
+    }
+}
+.simian.invert {
+    background-image: url('/images/button/60/simian2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/simian2.png');
+    }
+}
+.creature.invert {
+    background-image: url('/images/button/60/creature2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/creature2.png');
+    }
+}
+.space.invert {
+    background-image: url('/images/button/60/space2.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/space2.png');
+    }
+}
+.city.invert {
+    background-image: url('/images/button/60/creature.png');
+    @media (min-width: 1024px) {
+        background-image: url('/images/button/107/creature.png');
+    }
+}
 
 .plant.content {
     background-image: url('/images/animation/plant.gif');
@@ -102,10 +172,13 @@ body.invert {
     background-image: url('/images/animation/simian.gif');
 }
 .creature.content {
-    background-image: url('/images/animation/creature-only.gif');
+    background-image: url('/images/animation/creature.gif');
 }
 .space.content {
-    background-image: url('/images/animation/space-only.gif');
+    background-image: url('/images/animation/space.gif');
+}
+.city.content {
+    background-image: url('/images/animation/city.gif');
 }
 
 .plant.content.invert {
@@ -130,8 +203,11 @@ body.invert {
     background-image: url('/images/animation/simian2.gif');
 }
 .creature.content.invert {
-    background-image: url('/images/animation/creature-only2.gif');
+    background-image: url('/images/animation/creature2.gif');
 }
 .space.content.invert {
-    background-image: url('/images/animation/space-only2.gif');
+    background-image: url('/images/animation/space2.gif');
+}
+.city.content.invert {
+    background-image: url('/images/animation/city2.gif');
 }

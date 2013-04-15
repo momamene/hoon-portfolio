@@ -1,14 +1,12 @@
 /*global define */
-define(['jquery', 'layout'], function ($) {
+define(['jquery', 'layout', 'pixastic_invert'], function ($) {
     'use strict';
-    $('.btn-img').hover(function(event) {
-        var code = $(event.target).prop('class').replace('invertible btn-img ','');
-        $('.content').addClass(code);
-    }, function(event)  {
-        var code = $(event.target).prop('class').replace('invertible btn-img ','');
-        $('.content').removeClass(code);
+    $('.show-gif').click(function(event) {
+        var code = $(event.target).prop('class').replace('invertible show-gif btn-img ','');
+        $('.content').removeClass().addClass('invertible content').addClass(code);
     });
-    $('.space').click(function() {
+
+    $('.invert-trigger').click(function() {
         $('.invertible').each(function(index, target)  {
             if ($(target).hasClass('invert')) {
                 $(target).removeClass('invert');

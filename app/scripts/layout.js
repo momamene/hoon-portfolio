@@ -13,20 +13,20 @@ define(['jquery'], function ($) {
         var middleImgList = $('.vertical-middle').find('.btn-img');
         $(middleImgList[0]).css({
             top: heightGap,
-            left: 0
+            left: 30
         });
         $(middleImgList[1]).css({
             top: heightGap,
-            left: ($(window).width() - imgWidth)
+            left: ($(window).width() - imgWidth - 30)
         });
         var bottomImgList = $('.vertical-bottom').find('.btn-img');
         $(bottomImgList[0]).css({
             bottom: 0,
-            left: 0
+            left: 30
         });
         $(bottomImgList[1]).css({
             bottom: 0,
-            left: ($(window).width() - imgWidth)
+            left: ($(window).width() - imgWidth - 30)
         });
         $('.content').css('left', ($(window).width() - $('.content').width()) / 2 );
     };
