@@ -3,10 +3,10 @@ define(['jquery'], function ($) {
     'use strict';
     var resizeLayout = function() {
         var imgWidth = $('.btn-img').width(),
-            imgHeight = $('.btn-img').height();
+        imgHeight = $('.btn-img').height();
         var topImgList = $('.vertical-top').find('.btn-img'),
-            widthGap = ($(window).width() - imgWidth) / (topImgList.length - 1),
-            heightGap = ($(window).height() - imgHeight) / (3 - 1);
+        widthGap = ($(window).width() - imgWidth) / (topImgList.length - 1),
+        heightGap = ($(window).height() - imgHeight) / (3 - 1);
         for (var i = 0 ; i < topImgList.length ; i++)   {
             $(topImgList[i]).css('left', widthGap * i);
         }
