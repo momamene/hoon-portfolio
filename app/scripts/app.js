@@ -1,5 +1,5 @@
 /*global define */
-define(['jquery', 'layout', 'pixastic_invert'], function ($) {
+define(['jquery', 'layout'], function ($) {
     'use strict';
     $('.show-gif').click(function(event) {
         var code = $(event.target).prop('class').replace('invertible show-gif btn-img ','');
