@@ -5,225 +5,295 @@ $iconWhiteSpritePath: "/images/glyphicons-halflings-white.png";
 @import '../components/sass-bootstrap/lib/responsive';
 
 .btn-img {
-    width:60px;
-    height:60px;
-    @media (min-width: 1200px) {
-        width:107px;
-        height:107px;
-    }
-    background-size: cover;
-    position: fixed;
+  width:60px;
+  height:60px;
+  @media (min-height: 769px) {
+    width:107px;
+    height:107px;
+  }
+  background-size: cover;
+  position: fixed;
 };
 
 .content {
-   height: 612px;
-   width: 648px;
-   position: fixed;
-   bottom: 0;
+  height: 612px;
+  width: 648px;
+  position: fixed;
+  bottom: 0;
+  @media (max-height: 672px) {
+    width: 162px;
+    height: 153px;
+  }
 }
 body {
-    background-color: black;
+  background-color: black;
 }
 body.invert {
-    background-color: white;
+  background-color: white;
 }
 
 .plant {
-    background-image: url('/images/button/60/plant.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/plant.png');
-    }
+  background-image: url('/images/button/60/plant.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/plant.png');
+  }
 }
 .insect {
-    background-image: url('/images/button/60/insect.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/insect.png');
-    }
+  background-image: url('/images/button/60/insect.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/insect.png');
+  }
 }
 .fish {
-    background-image: url('/images/button/60/fish.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/fish.png');
-    }
+  background-image: url('/images/button/60/fish.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/fish.png');
+  }
 }
 .reptiles {
-    background-image: url('/images/button/60/reptiles.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/reptiles.png');
-    }
+  background-image: url('/images/button/60/reptiles.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/reptiles.png');
+  }
 }
 .birds {
-    background-image: url('/images/button/60/birds.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/birds.png');
-    }
+  background-image: url('/images/button/60/birds.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/birds.png');
+  }
 }
 .artiodactyla {
-    background-image: url('/images/button/60/artiodactyla.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/artiodactyla.png');
-    }
+  background-image: url('/images/button/60/artiodactyla.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/artiodactyla.png');
+  }
 }
 .simian {
-    background-image: url('/images/button/60/simian.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/simian.png');
-    }
+  background-image: url('/images/button/60/simian.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/simian.png');
+  }
 }
 .human {
-    background-image: url('/images/button/60/human.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/human.png');
-    }
+  background-image: url('/images/button/60/human.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/human.png');
+  }
 }
 .creature {
-    background-image: url('/images/button/60/creature.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/creature.png');
-    }
+  background-image: url('/images/button/60/creature.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/creature.png');
+  }
 }
 .space {
-    background-image: url('/images/button/60/space.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/space.png');
-    }
+  background-image: url('/images/button/60/space.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/space.png');
+  }
 }
 .spc {
-    background-image: url('/images/button/60/spc.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/spc.png');
-    }
+  background-image: url('/images/button/60/spc.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/spc.png');
+  }
 }
 .plant.invert {
-    background-image: url('/images/button/60/plant2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/plant2.png');
-    }
+  background-image: url('/images/button/60/plant2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/plant2.png');
+  }
 }
 .insect.invert {
-    background-image: url('/images/button/60/insect2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/insect2.png');
-    }
+  background-image: url('/images/button/60/insect2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/insect2.png');
+  }
 }
 .fish.invert {
-    background-image: url('/images/button/60/fish2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/fish2.png');
-    }
+  background-image: url('/images/button/60/fish2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/fish2.png');
+  }
 }
 .reptiles.invert {
-    background-image: url('/images/button/60/reptiles2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/reptiles2.png');
-    }
+  background-image: url('/images/button/60/reptiles2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/reptiles2.png');
+  }
 }
 .birds.invert {
-    background-image: url('/images/button/60/birds2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/birds2.png');
-    }
+  background-image: url('/images/button/60/birds2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/birds2.png');
+  }
 }
 .artiodactyla.invert {
-    background-image: url('/images/button/60/artiodactyla2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/artiodactyla2.png');
-    }
+  background-image: url('/images/button/60/artiodactyla2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/artiodactyla2.png');
+  }
 }
 .simian.invert {
-    background-image: url('/images/button/60/simian2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/simian2.png');
-    }
+  background-image: url('/images/button/60/simian2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/simian2.png');
+  }
 }
 .human.invert {
-    background-image: url('/images/button/60/human2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/human2.png');
-    }
+  background-image: url('/images/button/60/human2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/human2.png');
+  }
 }
 .creature.invert {
-    background-image: url('/images/button/60/creature2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/creature2.png');
-    }
+  background-image: url('/images/button/60/creature2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/creature2.png');
+  }
 }
 .space.invert {
-    background-image: url('/images/button/60/space2.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/space2.png');
-    }
+  background-image: url('/images/button/60/space2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/space2.png');
+  }
 }
 .spc.invert {
-    background-image: url('/images/button/60/spc.png');
-    @media (min-width: 1200px) {
-        background-image: url('/images/button/107/spc.png');
-    }
+  background-image: url('/images/button/60/spc2.png');
+  @media (min-height: 769px) {
+    background-image: url('/images/button/107/spc2.png');
+  }
 }
 
 .plant.content {
-    background-image: url('/images/animation/plant.gif');
+  background-image: url('/images/animation/612/plant.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/plant.gif');
+  }
 }
 .insect.content {
-    background-image: url('/images/animation/insect.gif');
+  background-image: url('/images/animation/612/insect.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/insect.gif');
+  }
 }
 .fish.content {
-    background-image: url('/images/animation/fish.gif');
+  background-image: url('/images/animation/612/fish.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/fish.gif');
+  }
 }
 .reptiles.content {
-    background-image: url('/images/animation/reptiles.gif');
+  background-image: url('/images/animation/612/reptiles.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/reptiles.gif');
+  }
 }
 .birds.content {
-    background-image: url('/images/animation/birds.gif');
+  background-image: url('/images/animation/612/birds.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/birds.gif');
+  }
 }
 .artiodactyla.content {
-    background-image: url('/images/animation/artiodactyla.gif');
+  background-image: url('/images/animation/612/artiodactyla.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/artiodactyla.gif');
+  }
 }
 .simian.content {
-    background-image: url('/images/animation/simian.gif');
+  background-image: url('/images/animation/612/simian.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/simian.gif');
+  }
 }
 .creature.content {
-    background-image: url('/images/animation/creature.gif');
+  background-image: url('/images/animation/612/creature.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/creature.gif');
+  }
 }
 .space.content {
-    background-image: url('/images/animation/space.gif');
+  background-image: url('/images/animation/612/space.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/space.gif');
+  }
 }
 .spc.content {
-    background-image: url('/images/animation/spc.gif');
+  background-image: url('/images/animation/612/spc.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/spc.gif');
+  }
 }
 .human.content {
-    background-image: url('/images/animation/city.gif');
+  background-image: url('/images/animation/612/city.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/city.gif');
+  }
 }
 .plant.content.invert {
-    background-image: url('/images/animation/plant2.gif');
+  background-image: url('/images/animation/612/plant2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/plant2.gif');
+  }
 }
 .insect.content.invert {
-    background-image: url('/images/animation/insect2.gif');
+  background-image: url('/images/animation/612/insect2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/insect2.gif');
+  }
 }
 .fish.content.invert {
-    background-image: url('/images/animation/fish2.gif');
+  background-image: url('/images/animation/612/fish2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/fish2.gif');
+  }
 }
 .reptiles.content.invert {
-    background-image: url('/images/animation/reptiles2.gif');
+  background-image: url('/images/animation/612/reptiles2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/reptiles2.gif');
+  }
 }
 .birds.content.invert {
-    background-image: url('/images/animation/birds2.gif');
+  background-image: url('/images/animation/612/birds2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/birds2.gif');
+  }
 }
 .artiodactyla.content.invert {
-    background-image: url('/images/animation/artiodactyla2.gif');
+  background-image: url('/images/animation/612/artiodactyla2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/artiodactyla2.gif');
+  }
 }
 .simian.content.invert {
-    background-image: url('/images/animation/simian2.gif');
+  background-image: url('/images/animation/612/simian2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/simian2.gif');
+  }
 }
 .creature.content.invert {
-    background-image: url('/images/animation/creature2.gif');
+  background-image: url('/images/animation/612/creature2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/creature2.gif');
+  }
 }
 .space.content.invert {
-    background-image: url('/images/animation/space2.gif');
+  background-image: url('/images/animation/612/space2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/space2.gif');
+  }
 }
 .spc.content.invert {
-    background-image: url('/images/animation/spc2.gif');
+  background-image: url('/images/animation/612/spc2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/spc2.gif');
+  }
 }
 .human.content.invert {
-    background-image: url('/images/animation/city2.gif');
+  background-image: url('/images/animation/612/city2.gif');
+  @media (max-height: 672px) {
+    background-image: url('/images/animation/153/city2.gif');
+  }
 }
