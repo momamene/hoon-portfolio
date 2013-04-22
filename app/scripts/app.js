@@ -4,8 +4,11 @@ define(['jquery', 'layout'], function ($) {
     $('.show-gif').click(function(event) {
         var code = $(event.target).prop('class').replace('invertible show-gif btn-img ','');
         $('.content').removeClass().addClass('invertible content').addClass(code);
+        return false;
     });
-
+    $('body').click(function() {
+        $('.content').removeClass().addClass('invertible content');
+    });
     $('.invert-trigger').click(function() {
         $('.invertible').each(function(index, target)  {
             if ($(target).hasClass('invert')) {
