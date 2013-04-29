@@ -7,7 +7,10 @@ define(['jquery', 'layout'], function ($) {
         return false;
     });
     $('body').click(function() {
-        $('.content').removeClass().addClass('invertible content');
+        $('.content').removeClass().addClass('invertible content introduce');
+        if ($('body').hasClass('invert')) {
+            $('.content').addClass('invert');
+        }
     });
     $('.invert-trigger').click(function() {
         $('.invertible').each(function(index, target)  {
